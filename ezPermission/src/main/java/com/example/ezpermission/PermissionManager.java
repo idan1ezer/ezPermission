@@ -21,7 +21,6 @@ public class PermissionManager {
 
     public interface PermissionResultListener {
         void onPermissionGranted();
-
         void onPermissionDenied(List<String> deniedPermissions);
     }
 
